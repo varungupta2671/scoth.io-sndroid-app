@@ -2,7 +2,7 @@
 <widget id="com.scotchio.slickshot" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>SlickShot</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A sample Apache Cordova application that responds to the device ready event.
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
@@ -23,6 +23,6 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <plugin name="cordova-plugin-camera" spec="^4.0.3" />
+    <plugin name="cord+ova-plugin-camera" spec="^4.0.3" />
     <engine name="android" spec="^7.0.0" />
 </widget>
