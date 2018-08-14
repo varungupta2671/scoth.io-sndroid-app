@@ -33,18 +33,6 @@
         <splash density="xhdpi" src="www/res/screen/android/refer-me-logo.png" />
         <splash density="xxhdpi" src="www/res/screen/android/refer-me-logo.png" />
         <splash density="xxxhdpi" src="www/res/screen/android/refer-me-logo.png" />
-        <!-- <splash density="land-ldpi" src="www/res/icon/android/refer-me-logo.png" />
-        <splash density="land-mdpi" src="www/res/icon/android/refer-me-logo.png" />
-        <splash density="land-hdpi" src="www/res/icon/android/refer-me-logo.png" />
-        <splash density="land-xhdpi" src="www/res/icon/android/refer-me-logo.png" />
-        <splash density="land-xxhdpi" src="www/res/icon/android/refer-me-logo.png" />
-        <splash density="land-xxxhdpi" src="www/res/icon/android/refer-me-logo.png" />
-        <splash density="port-ldpi" src="www/res/icon/android/refer-me-logo.png" />
-        <splash density="port-mdpi" src="www/res/icon/android/refer-me-logo.png" />
-        <splash density="port-hdpi" src="www/res/icon/android/refer-me-logo.png" />
-        <splash density="port-xhdpi" src="www/res/icon/android/refer-me-logo.png" />
-        <splash density="port-xxhdpi" src="www/res/icon/android/refer-me-logo.png" />
-        <splash density="port-xxxhdpi" src="www/res/icon/android/refer-me-logo.png" /> -->
     </platform>
     <!-- <platform name="ios">
         <allow-intent href="itms:*" />
