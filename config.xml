@@ -26,13 +26,13 @@
         <icon density="hdpi" src="www/res/icon/android/refer-me-logo.png" />
         <icon density="xhdpi" src="www/res/icon/android/refer-me-logo.png" />
         <icon density="xxhdpi" src="www/res/icon/android/refer-me-logo.png" />
-        <icon density="xxxhdpi" src="www/res/icon/android/refer-me-logo.png" />
-        <splash density="ldpi" src="www/res/icon/android/refer-me-logo.png" />
-        <splash density="mdpi" src="www/res/icon/android/refer-me-logo.png" />
-        <splash density="hdpi" src="www/res/icon/android/refer-me-logo.png" />
-        <splash density="xhdpi" src="www/res/icon/android/refer-me-logo.png" />
-        <splash density="xxhdpi" src="www/res/icon/android/refer-me-logo.png" />
-        <splash density="xxxhdpi" src="www/res/icon/android/refer-me-logo.png" />
+        <icon density="xxxhdpi" src="www/res/screen/android/refer-me-logo.png" />
+        <splash density="ldpi" src="www/res/screen/android/refer-me-logo.png" />
+        <splash density="mdpi" src="www/res/screen/android/refer-me-logo.png" />
+        <splash density="hdpi" src="www/res/screen/android/refer-me-logo.png" />
+        <splash density="xhdpi" src="www/res/screen/android/refer-me-logo.png" />
+        <splash density="xxhdpi" src="www/res/screen/android/refer-me-logo.png" />
+        <splash density="xxxhdpi" src="www/res/screen/android/refer-me-logo.png" />
         <!-- <splash density="land-ldpi" src="www/res/icon/android/refer-me-logo.png" />
         <splash density="land-mdpi" src="www/res/icon/android/refer-me-logo.png" />
         <splash density="land-hdpi" src="www/res/icon/android/refer-me-logo.png" />
