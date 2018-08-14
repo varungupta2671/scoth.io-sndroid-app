@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.scotchio.slickshot;
+package com.scotchio.referme;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
