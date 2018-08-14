@@ -1,8 +1,8 @@
 {
-    "name": "com.scotchio.slickshot",
-    "displayName": "SlickShot",
+    "name": "com.scotchio.referme",
+    "displayName": "Refer Me!",
     "version": "1.0.0",
-    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "description": "Refer me app for all IT corporate employees.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
