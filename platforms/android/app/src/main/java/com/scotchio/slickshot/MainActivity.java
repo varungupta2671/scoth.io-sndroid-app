@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.scotchio.referme;
+package com.itsvarungupta.referme;
 
 import android.os.Bundle;
 import org.apache.cordova.*;

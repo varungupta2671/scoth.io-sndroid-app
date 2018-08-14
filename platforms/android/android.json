@@ -34,10 +34,10 @@
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.scotchio.referme"
+            "PACKAGE_NAME": "com.itsvarungupta.referme"
         },
         "cordova-plugin-camera": {
-            "PACKAGE_NAME": "com.scotchio.referme"
+            "PACKAGE_NAME": "com.itsvarungupta.referme"
         }
     },
     "dependent_plugins": {},
