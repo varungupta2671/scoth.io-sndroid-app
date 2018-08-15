@@ -38,4 +38,13 @@ angular.module('myApp')
             $done();
         }.bind(this), 1000);
     }.bind(this);
+})
+
+.controller('SplitterController', function() {
+    this.load = function(page) {
+        mySplitter.content.load(page)
+            .then(function() {
+                mySplitter.left.close();
+            });
+    };
 });
