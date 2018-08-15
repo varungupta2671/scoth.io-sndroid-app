@@ -1,25 +1,25 @@
 <ons-page ons-show="updateToolbar('History')">
-  <div class="content">
-    <ons-list>
-      <ons-list-item tappable ng-repeat="video in history track by $index" ng-click="modal.show(); launch(video, false)">
-        <div class="left">
-          <img class="thumbnail" ng-src="{{ video.thumbnail }}">
-        </div>
-        <div class="center">
-          <div class="title">
-            {{ video.title }}
-          </div>
-          <div class="user">
-            <ons-icon icon="fa-user"></ons-icon><span style="font-size: 12px"> {{ video.author ? video.author : "Anonymous" }}</span>
-          </div>
-          <div class="desc">
-            {{ video.description }}
-          </div>
-        </div>
-      </ons-list-item>
-    </ons-list>
-    <p class="after-list" ng-show="history.length === 0">
-      {{labelHistory}}
-    </p>
-  </div>
+    <div class="content">
+
+        <ons-page ng-controller="PageController as page">
+            <ons-pull-hook ng-action="page.load($done)" var="loader">
+                <span ng-switch="loader.state">
+                <span ng-switch-when="initial"><ons-icon size="35px" icon="ion-arrow-down-a"></ons-icon> Pull down to refresh</span>
+                <span ng-switch-when="preaction"><ons-icon size="35px" icon="ion-arrow-up-a"></ons-icon> Release to refresh</span>
+                <span ng-switch-when="action"><ons-icon size="35px" spin="true" icon="ion-load-d"></ons-icon> Loading data...</span>
+                </span>
+            </ons-pull-hook>
+
+            <ons-toolbar>
+                <div class="center">Pull to refresh</div>
+            </ons-toolbar>
+
+            <ons-list>
+                <ons-list-item ng-repeat="item in page.items">
+                    Item #{{ item }}
+                </ons-list-item>
+            </ons-list>
+        </ons-page>
+
+    </div>
 </ons-page>
